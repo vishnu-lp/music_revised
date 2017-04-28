@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+
+
+<nav class = "navbar navbar-inverse bg-primary" role = "navigation">
+   
+   <div class = "navbar-header">
+      <a class = "navbar-brand" href = "{% url "genre_list" %}">Genre List API</a>
+   </div>
+   
+   <div>
+      <ul class = "nav navbar-nav">
+         <li class = "active"><a href = "{% url "index" %}">Music List</a></li>
+         <li><a href = "{% url "index" %}"></a></li>
+            </li>
+            
+      </ul>
+   </div>
+   
+</nav>
+
+
+
+
+<h2>Genre List</h2>
+{% block content %}
+{% for c in queryset %}
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Genre {{c.id}} Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="genre/update/{{c.id}}">Update API</a>
+    <a href="genre/retieve/{{c.id}}">Retrieve</a>
+    <a href="genre/create">Create</a>
+    <a href="genre/destroy/{{c.id}}">Destroy</a>
+  </div>
+</div>
+
+{% endfor %}
+{% endblock %}
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<a href="{% url "Genre_Create" %}" class="button" style="margin-left: 30%">Add Genre</a>
+
+{% block content1 %}
+<hr/>
+
+ {% for contact in contacts %}
+
+{{ contact.full_name|upper }}<br />
+ 
+{% endfor %}
+
+<div class="pagination">
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="?page={{ contacts.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="?page={{ contacts.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+
+{% endblock %}
+</body>
+</html>
