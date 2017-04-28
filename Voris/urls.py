@@ -25,8 +25,6 @@ urlpatterns = [
     url(r'^$',musicindex,name='index'),
     url(r'^genre/',include(gurl),name='gurl'),
     url(r'^music/',include(murl),name='murl'),
-    url(r'^ratings/', include('star_ratings.urls', namespace='ratings', app_name='ratings')),
-
 ]
 
 if settings.DEBUG:

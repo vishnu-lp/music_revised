@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles','Genre','rest_framework','Music','star_ratings'
+    'django.contrib.staticfiles','Genre','rest_framework','Music'
 ]
 
 MIDDLEWARE = [

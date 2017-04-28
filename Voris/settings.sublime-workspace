@@ -1,0 +1,413 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"G",
+				"Genre_Create"
+			],
+			[
+				"Ge",
+				"Genre"
+			],
+			[
+				"mu",
+				"music"
+			],
+			[
+				"con",
+				"contacts"
+			],
+			[
+				"query",
+				"queryset"
+			],
+			[
+				"music",
+				"music_genre"
+			],
+			[
+				"music_",
+				"music_description"
+			],
+			[
+				"qu",
+				"queryset"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"Mu",
+				"Music"
+			],
+			[
+				"Cre",
+				"CreateAPIView"
+			],
+			[
+				"r",
+				"RetrieveAPIView"
+			],
+			[
+				"Genr",
+				"GenreSerializer"
+			],
+			[
+				"Music",
+				"MusicDetailAPI"
+			],
+			[
+				"M",
+				"MusicCreateAPI"
+			],
+			[
+				"gen",
+				"genre_url"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"m",
+				"music_title"
+			],
+			[
+				"mus",
+				"music_genre"
+			],
+			[
+				"col",
+				"col-sm-offset-2"
+			],
+			[
+				"bt",
+				"btn-primary"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"H",
+				"HttpResponseRedirect"
+			],
+			[
+				"Genre",
+				"GenreForm"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"GE",
+				"GenreAdmin"
+			],
+			[
+				"P",
+				"ProfileSerializer"
+			],
+			[
+				"so",
+				"soniclick_in"
+			],
+			[
+				"C",
+				"CategoryAdmin"
+			],
+			[
+				"db",
+				"db_index"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/vishnu/Desktop/venv/Voris/templates/base1.html",
+		"/home/vishnu/Desktop/venv/Voris/.env",
+		"/home/vishnu/Desktop/venv/Voris/runtime.txt",
+		"/home/vishnu/Desktop/venv/Voris/Procfile",
+		"/home/vishnu/Desktop/venv/Voris/requirements.txt",
+		"/home/vishnu/Desktop/venv/Voris/requirements-dev.txt",
+		"/home/vishnu/Desktop/venv/Voris/Voris/wsgi.py",
+		"/home/vishnu/Desktop/venv/Voris/templates/base.html",
+		"/home/vishnu/Desktop/venv/Voris/templates/music_index.html",
+		"/home/vishnu/Desktop/venv/Voris/Genre/views.py",
+		"/home/vishnu/Desktop/venv/Voris/Genre/urls.py",
+		"/home/vishnu/Desktop/venv/Voris/Voris/settings.py",
+		"/home/vishnu/Desktop/venv/Voris/Music/admin.py",
+		"/home/vishnu/Desktop/venv/Voris/Music/views.py",
+		"/home/vishnu/Desktop/venv/Voris/Voris/urls.py",
+		"/home/vishnu/Desktop/venv/Voris/Music/urls.py",
+		"/home/vishnu/Desktop/venv/Voris/Music/models.py",
+		"/home/vishnu/Desktop/venv/Voris/Music/serializers.py",
+		"/home/vishnu/Desktop/venv/Voris/static/static/livesearch.js",
+		"/home/vishnu/Desktop/venv/Voris/Genre/serializers.py",
+		"/home/vishnu/Desktop/venv/Voris/Genre/models.py",
+		"/home/vishnu/Desktop/venv/Voris/Genre/admin.py",
+		"/home/vishnu/Desktop/ENV/Music/MusicTracks/serializers.py",
+		"/home/vishnu/Desktop/ENV/Music/MusicTracks/urls.py",
+		"/home/vishnu/Desktop/ENV/Music/TrackGenre/urls.py",
+		"/home/vishnu/Desktop/ENV/Music/TrackGenre/views.py",
+		"/home/vishnu/Desktop/ENV/Music/Music/urls.py",
+		"/home/vishnu/Desktop/ENV/Music/MusicTracks/models.py",
+		"/home/vishnu/Desktop/ENV/Music/MusicTracks/views.py",
+		"/home/vishnu/Desktop/ENV/Music/Music/settings.py",
+		"/home/vishnu/Desktop/ENV/Music/templates/index.html",
+		"/home/vishnu/Desktop/ENV/Music/TrackGenre/serializers.py",
+		"/home/vishnu/Desktop/ENV/Music/MusicTracks/admin.py",
+		"/home/vishnu/Desktop/serializers.py",
+		"/home/vishnu/Desktop/ENV/Music/TrackGenre/admin.py",
+		"/home/vishnu/Desktop/ENV/Music/TrackGenre/models.py",
+		"/home/vishnu/Desktop/music/musical/api/views.py",
+		"/home/vishnu/Desktop/music/musical/views.py",
+		"/home/vishnu/music123/templates/base.html",
+		"/home/vishnu/Desktop/venv/music/music/settings.py",
+		"/home/vishnu/VIRTUALENVIRONMENT/lib/python2.7/site-packages/packaging/requirements.py",
+		"/home/vishnu/music123/music/settings.py",
+		"/home/vishnu/Desktop/music/music/settings.py",
+		"/home/vishnu/Desktop/music/musical/models.py",
+		"/home/vishnu/Desktop/music/musical/api/urls.py",
+		"/home/vishnu/Desktop/music/musical/api/serializers.py",
+		"/home/vishnu/Desktop/music/templates/details.html",
+		"/home/vishnu/Desktop/music/templates/music_base.html",
+		"/home/vishnu/Desktop/music/templates/base.html",
+		"/home/vishnu/Desktop/music/templates/music_create.html",
+		"/home/vishnu/Desktop/music/music/urls.py",
+		"/home/vishnu/Desktop/music/musical/urls.py",
+		"/home/vishnu/Desktop/music/templates/music_details.html",
+		"/home/vishnu/Desktop/music/musical/api/__init__.py",
+		"/home/vishnu/Desktop/music/musical/forms.py",
+		"/home/vishnu/Desktop/music/templates/create.html",
+		"/home/vishnu/Desktop/music/static/css/base.css",
+		"/home/vishnu/Desktop/music/templates/update.html",
+		"/home/vishnu/Desktop/ProjA/Portal/models.py",
+		"/home/vishnu/Desktop/music/musical/admin.py",
+		"/home/vishnu/Desktop/music/musical/templates/genre_detail.html",
+		"/home/vishnu/Desktop/music/musical/migrations/urls.py",
+		"/home/vishnu/Desktop/Viberr/music/forms.py",
+		"/home/vishnu/Desktop/Viberr/music/urls.py",
+		"/home/vishnu/Desktop/Viberr/music/models.py",
+		"/home/vishnu/Desktop/Viberr/music/views.py",
+		"/home/vishnu/Desktop/music/musiclist/musicapi/serializers.py",
+		"/home/vishnu/Desktop/music/musiclist/admin.py",
+		"/home/vishnu/Desktop/music/musiclist/musicapi/urls.py",
+		"/home/vishnu/Desktop/music/musiclist/models.py",
+		"/home/vishnu/Desktop/music/musiclist/musicapi/views.py",
+		"/home/vishnu/Desktop/html_file/index.html",
+		"/home/vishnu/Desktop/startbootstrap-stylish-portfolio/index.html",
+		"/home/vishnu/Desktop/ProjA/Portal/admin.py",
+		"/home/vishnu/Desktop/startbootstrap-modern-business/about.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"query",
+			"template_context_processors",
+			"music",
+			"values",
+			"music",
+			"GenreSerializer",
+			"static",
+			"user",
+			"register",
+			"1.jpg",
+			"Videograp",
+			"about",
+			"blog",
+			"insta",
+			"pinterest",
+			"instagram",
+			"service",
+			"pricing",
+			"address",
+			"potrait",
+			"Videography",
+			"img",
+			"most amazing ",
+			"static/banner",
+			"b1.jpg",
+			"static/banner/",
+			"capture",
+			"assets/img/logo.png",
+			"about",
+			"1.jpg",
+			"font",
+			"foreign",
+			"foreign \t",
+			"foreign"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "settings.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
