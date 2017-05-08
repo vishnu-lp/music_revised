@@ -138,7 +138,7 @@
 
 
 <ul id="myUL">
-  <li class="w3-large"><a href="/genre/update/{{c.id}}" class="btn btn-primary">Update</a><a href="/music/update/{{c.id}}">{{c.music_title|center:"15"}}<div class="rw-ui-container"></div> [{{c.music_genre|center:"15"}}]<a href="/music/destroy/{{c.id}}" class="btn btn-primary">Delete</a></a><hr/></li>
+  <li class="w3-large"><a href="/music/update/{{c.id}}" class="btn btn-primary">Update</a><a href="/music/retrieve/{{c.id}}">{{c.music_title|center:"15"}}<div class="rw-ui-container"></div> [{% for gen in c.music_genre.all %}{{gen|center:"15"}}{% endfor %}]<a href="/music/destroy/{{c.id}}" class="btn btn-primary">Delete</a></a><hr/></li>
 </ul>
 
 
@@ -151,32 +151,31 @@
  <a href="{% url "Music_Create" %}" class="button" style="margin-left: 30%">Add Music</a>
 
 
-{% block content1 %}
 <hr/>
 
- {% for contact in contacts %}
+ {% if users.has_other_pages %}
+  <ul class="pagination">
+    {% if users.has_previous %}
+      <li><a href="?page={{ users.previous_page_number }}">&laquo;</a></li>
+    {% else %}
+      <li class="disabled"><span>&laquo;</span></li>
+    {% endif %}
+    {% for i in users.paginator.page_range %}
+      {% if users.number == i %}
+        <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+      {% else %}
+        <li><a href="?page={{ i }}">{{ i }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% if users.has_next %}
+      <li><a href="?page={{ users.next_page_number }}">&raquo;</a></li>
+    {% else %}
+      <li class="disabled"><span>&raquo;</span></li>
+    {% endif %}
+  </ul>
+{% endif %}
 
-{{ contact.full_name|upper }}<br />
- 
-{% endfor %}
 
-<div class="pagination">
-    <span class="step-links">
-        {% if contacts.has_previous %}
-            <a href="?page={{ contacts.previous_page_number }}">previous</a>
-        {% endif %}
-
-        <span class="current">
-            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
-        </span>
-
-        {% if contacts.has_next %}
-            <a href="?page={{ contacts.next_page_number }}">next</a>
-        {% endif %}
-    </span>
-</div>
-
-{% endblock %}
 
 </body>
 

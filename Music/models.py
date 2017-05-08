@@ -9,7 +9,7 @@ from Genre.models import Genre
 
 class Music(models.Model):
 	music_title = models.CharField(max_length=100,db_index=True)
-	music_genre = models.ForeignKey(Genre)
+	music_genre = models.ManyToManyField(Genre)
 	music_description = models.TextField(max_length=200,blank=True)
 
 	def __str__(self):

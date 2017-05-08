@@ -10,7 +10,7 @@ from Genre.models import Genre
 
 
 class MusicAdmin(admin.ModelAdmin):
-	list_display = ['music_title','music_genre','music_description']
+	list_display = ['music_title','music_description']
 	search_fields = ['music_title','music_description','music_genre__genre_title']
 
 admin.site.register(Music,MusicAdmin)

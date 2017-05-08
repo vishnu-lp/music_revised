@@ -55,16 +55,17 @@ def musicindex(request):
 		queryset=Music.objects.filter(Q( music_title__icontains = query ) |Q(music_genre__genre_title__contains=query))
 
 
-	paginator = Paginator(queryset, 8)
-	page = request.GET.get('page')
+
+	page = request.GET.get('page', 1)
+	paginator = Paginator(queryset, 3)
 	try:
-		contacts = paginator.page(page)
+		users = paginator.page(page)
 	except PageNotAnInteger:
-		contacts = paginator.page(1)
+		users = paginator.page(1)
 	except EmptyPage:
-		contacts = paginator.page(paginator.num_pages)
-	context = {'queryset':queryset,'contacts':contacts}
-		
+		users = paginator.page(paginator.num_pages)
+	context = {'queryset':queryset,'users':users}
+
 
 
 	return render(request,'music_index.html',context)
